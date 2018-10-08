@@ -1,0 +1,126 @@
+a{
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+.header1{
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.header2{
+    text-align:center;
+    font-size: 1.5em;
+}
+.bluebar{
+    background-color: lightskyblue;
+    color:white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%
+}
+.first{
+    margin-left:5%;
+    font-size: 2em;
+    font-weight: bold
+
+}
+.second{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5em;
+    font-weight: bold
+
+}
+.third{
+    font-size: 1.5em;
+}
+.second_bar{
+    position: relative;
+    background-color: lightgray;
+    height: 140px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%
+
+}
+.curse{
+    position: absolute;
+    bottom: 105px;
+    left: 10px;
+    color:#4a5463;
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+
+.smalltext{
+    position: absolute;
+    top: 60px;
+    font-size: .9em;
+    padding-left:15px;
+    padding-right:5px;
+}
+.mid1{
+    color:royalblue;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 1.1em;
+}
+.mid2{
+    color:black;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 1%;
+    font-size: .8em;
+    text-align: left
+}
+.mid3{
+    background-color: orange;
+    color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left:5px;
+
+}
+.cell_area{
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: center;
+}
+.cell{
+    position: relative;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+}
+.cell_title{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: right;
+    display: table-cell;
+}
+.cell_articles{
+    position: absolute;
+    top: 85%;
+    left: 50%
+}
